@@ -149,6 +149,53 @@ main {
   margin-bottom: 32px;
 }
 
+/* Features related styles */
+.features {
+  margin-top: 140px;
+  gap: 140px;
+}
+
+.features-section-title {
+  font-size: 45px;
+  font-weight: 800;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.all-cards {
+  margin-top: 30px;
+}
+
+.feature-card {
+  max-width: 586px;
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.feature-card h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: -60%;
+  margin-left: -10%;
+}
+
+button > span {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#button-experience {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 /* Fact style */
 .facts-container {
   margin-top: 120px;
@@ -181,6 +228,7 @@ main {
 
 .fact .fact-icon {
   width: 32px;
+  margin-bottom: 10px;
 }
 
 .fact .fact-number {
@@ -216,6 +264,7 @@ main {
 
 .sponsor-images img {
   height: 50px;
+  filter: grayscale(100%);
 }
 
 /* footer */
@@ -237,6 +286,7 @@ footer p {
 
   .navbar h3 {
     font-size: 1.5rem;
+    margin-bottom: 20px;
   }
 
   .banner-content h1 {
@@ -263,6 +313,20 @@ footer p {
     margin-left: -5px;
   }
 
+  /* Features styles */
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features img {
+    width: 100%;
+  }
+
+  button {
+    margin-left: 0;
+  }
+
   /* Facts style */
 
   .facts {
@@ -274,7 +338,7 @@ footer p {
   .sponsor-images {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
+    gap: 50px;
     width: 40%;
     margin: 0 auto;
   }
@@ -303,8 +367,26 @@ footer p {
   .sponsor-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 50px;
     width: 85%;
     margin: 0 auto;
+  }
+
+  /* Features styles */
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-card {
+    max-width: 100%;
+  }
+
+  .features img {
+    width: 100%;
+  }
+
+  button {
+    margin-left: 0;
   }
 }
